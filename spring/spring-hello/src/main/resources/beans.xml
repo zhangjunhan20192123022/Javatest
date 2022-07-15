@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="s1" class="org.example.SomeServiceimp"/>
+    <bean id="mydata" class="java.util.Date"/>
+
+</beans>
+<!--
+spring的配置文件，beans是根标签，spring把java对象成为bean。
+spring-beans。xsd是约束文件，跟mybatis的dtd一样
+-->
